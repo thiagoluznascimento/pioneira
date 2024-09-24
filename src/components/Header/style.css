@@ -1,0 +1,26 @@
+.custom-navbar {
+    background-color: #087808;
+    min-height: 70px;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column;
+}
+.nav-brand{
+    color: aliceblue !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-link {
+    color: aliceblue !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Adicionar estilo para os itens do dropdown */
+
+.nav-dropdown-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-dropdown-item:hover {
+    background-color: darkgreen !important; /* Cor de fundo ao passar o mouse */
+    color: white !important; /* Cor do texto ao passar o mouse */
+}

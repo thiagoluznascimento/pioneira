@@ -1,0 +1,46 @@
+.Home {
+    position: relative;
+    height: 100vh; /* Altura total da viewport */
+    /* background-image: url(); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.Home .overlay {
+    flex: 1;
+    background-image: var(--overlay);
+    background-color: rgba(0, 0, 0, 0.09);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+}
+
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem !important;
+    color: #EEEEEE !important;
+    text-align: center;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem !important;
+    color: #EEEEEE !important;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .Home {
+        height: 70vh; /* Reduz a altura em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .Home {
+        height: 50vh; /* Reduz ainda mais a altura em telas muito pequenas */
+    }
+}

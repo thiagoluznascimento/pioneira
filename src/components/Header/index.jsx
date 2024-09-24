@@ -1,0 +1,35 @@
+import React from 'react';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import logoImage from "../../assets/images/pioneira_agronegcio_logo.jpeg";
+import "./style.css";
+
+function Header() {
+    return (
+        <>
+        <Navbar expand="md" className="custom-navbar" >
+            <Container>
+                <Navbar.Brand as={Link} to="/" className="nav-brand">
+                <img src={logoImage} width="30" height="30" className="d-inline-block align-top" alt='Logo pioneira' />
+                Pioneira</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto" >
+                        <Nav.Link as={Link} to="/" className="nav-link">Início</Nav.Link>
+                        <Nav.Link as={Link} to="/products" className="nav-link">Produtos</Nav.Link>
+                        <NavDropdown title="Mais" id="basic-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/about" className="nav-dropdown-item">Quem Somos</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/learn" className="nav-dropdown-item">Fique por dentro</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/companies" className="nav-dropdown-item">Parceiros</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item as={Link} to="/contact" className="nav-dropdown-item">Contato</NavDropdown.Item>
+                        </NavDropdown>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+        </>
+    );
+}
+
+export default Header;
