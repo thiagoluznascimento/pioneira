@@ -1,3 +1,4 @@
+/* CSS Home */
 .Home {
     position: relative;
     height: 100vh; /* Altura total da viewport */
@@ -43,4 +44,41 @@ h3 {
     .Home {
         height: 50vh; /* Reduz ainda mais a altura em telas muito pequenas */
     }
+}
+
+
+/* CSS Produtos */
+.titulo-produtos {
+    font-size: 5rem !important;
+    color: black !important;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* CSS Companias */
+.companies-container {
+    padding: 50px;
+    background-color: white; /* Cor de fundo leve */
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.companies-title {
+    font-size: 5rem !important;
+    color: black !important;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.companies-descricao{
+    color: black !important;
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.company-item {
+    margin: 0 20px;
+}
+
+.company-logo {
+    height: 100px;
+    object-fit: contain;
 }
