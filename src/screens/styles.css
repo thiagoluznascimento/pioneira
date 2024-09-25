@@ -48,16 +48,16 @@ h3 {
 
 
 .titulo-h2 {
-    font-size: 5rem !important;
+    font-size: 3rem !important;
     color: black !important;
-    margin-bottom: 20px;
+    padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .sub-titulo-h3 {
     color: black !important;
     padding: 50px;
-    /* margin-bottom: 50px; */
+    font-size: 2rem !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -76,4 +76,10 @@ h3 {
 .company-logo {
     height: 100px;
     object-fit: contain;
+}
+
+/* Entre em contato */
+
+.container-contact {
+    margin-bottom: 20%;
 }

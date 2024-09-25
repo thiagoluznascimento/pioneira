@@ -6,6 +6,7 @@ import '../styles.css';
 function Learn() {
     return(
         <Container className="p-4">
+            <h2 className="titulo-h2">Novidades</h2>
             <Row xs={1} md={2} className="g-4">
             {learnList.map((learn, idx) => (
                 <Col key={idx}>

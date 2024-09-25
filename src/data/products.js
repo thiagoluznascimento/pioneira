@@ -1,13 +1,13 @@
-import product1 from "../assets/images/semente-soja.webp";
-import product2 from "../assets/images/semente-trigo.jpeg";
-import product3 from "../assets/images/semente-tomate.webp";
-import product4 from "../assets/images/semente-milho.jpg";
-import product5 from "../assets/images/trator.avif";
-import product6 from "../assets/images/cortador-grama.webp";
-import product7 from "../assets/images/drone.jpg";
-import product8 from "../assets/images/arroz.jpg";
-import product9 from "../assets/images/muda-laranja.jpg";
-import product10 from "../assets/images/algodao.webp";
+import product1 from "../assets/products/semente-soja.webp";
+import product2 from "../assets/products/semente-trigo.jpeg";
+import product3 from "../assets/products/semente-tomate.webp";
+import product4 from "../assets/products/semente-milho.jpg";
+// import product5 from "../assets/products/trator.avif";
+// import product6 from "../assets/products/cortador-grama.webp";
+import product7 from "../assets/products/drone.jpg";
+import product8 from "../assets/products/arroz.jpg";
+import product9 from "../assets/products/muda-laranja.jpg";
+import product10 from "../assets/products/algodao.webp";
 
 
 export const products = [
@@ -30,16 +30,6 @@ export const products = [
         title: "Sementes de Milho",
         description: "As sementes de milho Terragro são fruto de pesquisas avançadas e melhoramento genético, oferecendo desempenho excepcional em diversas condições de cultivo. Maximize sua colheita com nossas sementes, adaptadas para resultados superiores.",
         image: product4
-    },
-    {
-        title: "Trator",
-        description: "O Trator da Terragro combina potência e durabilidade, projetado para atender as demandas do manejo agrícola em qualquer escala. Com tecnologia de ponta, oferece versatilidade e facilidade de uso, tornando seu trabalho no campo mais eficiente.",
-        image: product5
-    },
-    {
-        title: "Cortador de Grama",
-        description: "Este cortador de grama é a solução perfeita para quem busca eficiência e precisão. Equipado com um motor potente, ele garante um corte uniforme, proporcionando um acabamento profissional para seu gramado, independentemente do seu tamanho.",
-        image: product6
     },
     {
         title: "Drone Pulverizador",

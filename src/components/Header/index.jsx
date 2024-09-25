@@ -18,9 +18,9 @@ function Header() {
                         <Nav.Link as={Link} to="/" className="nav-link">Início</Nav.Link>
                         <Nav.Link as={Link} to="/products" className="nav-link">Produtos</Nav.Link>
                         <NavDropdown title="Mais" id="basic-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="/about" className="nav-dropdown-item">Quem Somos</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/learn" className="nav-dropdown-item">Fique por dentro</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/companies" className="nav-dropdown-item">Parceiros</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/about" className="nav-dropdown-item">Quem Somos</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={Link} to="/contact" className="nav-dropdown-item">Contato</NavDropdown.Item>
                         </NavDropdown>
