@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import '../styles.css'
+import '../styles.css';
 
 import { companies } from '../../data/companies';
 import { Container } from "react-bootstrap";
