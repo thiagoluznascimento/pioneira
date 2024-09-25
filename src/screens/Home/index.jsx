@@ -1,5 +1,5 @@
 import background from '../../assets/background01.jpg';
-import './style.css';
+import '../styles.css';
 import logoImage from "../../assets/images/pioneira_agronegcio_logo.jpeg";
 
 function Home() {
