@@ -1,10 +1,27 @@
+import { Card, Row, Col, Container } from "react-bootstrap";
+import { learnList } from "../../data/learn.js";
+import '../styles.css';
 
 
 function Learn() {
     return(
-        <>
-        <div>Fique Por dentro</div>
-        </>
+        <Container className="p-4">
+            <Row xs={1} md={2} className="g-4">
+            {learnList.map((learn, idx) => (
+                <Col key={idx}>
+                    <Card>
+                        <div style={{ height: "350px", overflow: "hidden" }}>
+                            <Card.Img variant="top" src={learn.image} className="img-fluid" style={{ objectFit: "cover", width: "100%", height: "100%" }} />
+                        </div>
+                        <Card.Body>
+                            <Card.Title>{learn.title}</Card.Title>
+                            <Card.Text>{learn.description}</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            ))}
+            </Row>
+        </Container>
     )
 }
 
