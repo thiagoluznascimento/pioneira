@@ -5,7 +5,7 @@ import '../styles.css';
 function Products() {
     return (
         <Container className="p-3">
-            <h2 className= "titulo-produtos" >Nossos Produtos</h2>
+            <h2 className= "titulo-h2" >Nossos Produtos</h2>
             <Row xs={1} md={2} className="g-4">
             {products.map((product, idx) => (
                 <Col key={idx}>
