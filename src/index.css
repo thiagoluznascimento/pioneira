@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-    --primary:  #087808;
+    --primary:  #198754;
     --secondary: #EEEEEE;
-    --overlay: linear-gradient(358.41deg, #087808 1.32%, rgba(73, 111, 93, 0) 98.65%);
+    --overlay: linear-gradient(358.41deg, #198754 1.32%, rgba(73, 111, 93, 0) 98.65%);
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logoImage from "../../assets/images/pioneira_agronegcio_logo.jpeg";
 import "./style.css";
