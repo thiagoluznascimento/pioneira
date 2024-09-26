@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "./style.css";
 
 function Footer() {
@@ -16,15 +17,22 @@ function Footer() {
                     <Col md={4}>
                         <h5>Links úteis</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#home" className="text-white">Início</a></li>
-                            <li><a href="#products" className="text-white">Produtos</a></li>
-                            <li><a href="#contact" className="text-white">Contato</a></li>
+                            <li><Link as={Link} to="/" >Início</Link></li>
+                            <li><Link as={Link} to="/products" >Produtos</Link></li>
+                            <li><Link as={Link} to="/contact" >Contato</Link></li>
                         </ul>
                     </Col>
                     <Col md={4}>
                         <h5>Contato</h5>
-                        <p>Email: contato@pioneira.com</p>
-                        <p>Telefone: +55 (38) 1234-5678</p>
+                        <Link to="/" className='d-block mb-2' >
+                            <i className="bi bi-whatsapp"></i> WhatsApp
+                        </Link>
+                        <Link to="/" className='d-block mb-2' >
+                            <i className="bi bi-instagram"></i> Instagram
+                        </Link>
+                        <Link to="/" className='d-block mb-2'>
+                            <i className="bi bi-envelope"></i> Email
+                        </Link>
                     </Col>
                 </Row>
                 <Row className="text-center mt-3">
