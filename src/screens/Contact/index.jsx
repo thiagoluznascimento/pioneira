@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import '../styles.css';
 
@@ -18,6 +18,9 @@ function Contact() {
                     <Form.Label>Escreva sua mensagem</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
+                <Button variant="primary" type="submit">
+                    Enviar
+                </Button>
             </Form>
         </Container>
     );

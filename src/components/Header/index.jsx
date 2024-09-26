@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Col, Container, Nav, Navbar, NavDropdown, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logoImage from "../../assets/images/pioneira_agronegcio_logo.jpeg";
 import "./style.css";
@@ -25,6 +25,17 @@ function Header() {
                             <NavDropdown.Item as={Link} to="/contact" className="nav-dropdown-item">Contato</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
+                    <div className="d-flex">
+                        <Link to="/" className="text-white me-4">
+                            <i className="bi bi-whatsapp"></i>
+                        </Link>
+                        <Link to="/" className="text-white me-4">
+                            <i className="bi bi-instagram"></i>
+                        </Link>
+                        <Link to="/" className="text-white me-4">
+                            <i className="bi bi-facebook"></i>
+                        </Link>
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
