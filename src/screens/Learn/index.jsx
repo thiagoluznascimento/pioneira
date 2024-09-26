@@ -10,7 +10,7 @@ function Learn() {
             <Row xs={1} md={2} className="g-4">
             {learnList.map((learn, idx) => (
                 <Col key={idx}>
-                    <Card>
+                    <Card className="h-100">
                         <div style={{ height: "350px", overflow: "hidden" }}>
                             <Card.Img variant="top" src={learn.image} className="img-fluid" style={{ objectFit: "cover", width: "100%", height: "100%" }} />
                         </div>
