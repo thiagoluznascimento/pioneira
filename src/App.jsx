@@ -1,17 +1,17 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
-import Home from "./screens/Home";
-import Root from "./screens/Root";
-import Products from "./screens/Products";
-import About from "./screens/About";
-import Learn from "./screens/Learn"
-import Contact from "./screens/Contact";
-import Companies from "./screens/Companies";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import Root from "./Pages/Root";
+import Products from "./Pages/Products";
+import About from "./Pages/About";
+import Learn from "./Pages/Learn"
+import Contact from "./Pages/Contact";
+import Companies from "./Pages/Companies";
 
 function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Root/>}>
             <Route index element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
             <Route path="/companies" element={<Companies/>} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
