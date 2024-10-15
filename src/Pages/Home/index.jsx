@@ -8,9 +8,9 @@ function Home() {
         <div className='overlay'>
             <div>
                 
-                <h2 className="display">
+                <h2>
                   <img src={logoImage} width="100" height="100" className="d-inline-block align-top" alt='Logo pioneira' />
-                  Pioneira</h2>
+                  AgroPioneiro</h2>
                 <h3 className="display-5">Agronegócios</h3>
             </div>
         </div>

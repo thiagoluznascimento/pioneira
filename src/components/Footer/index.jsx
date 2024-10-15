@@ -37,7 +37,7 @@ function Footer() {
                 </Row>
                 <Row className="text-center mt-3">
                     <Col>
-                        <p className="mb-0">&copy; 2024 Pioneira. Todos os direitos reservados.</p>
+                        <p className="mb-0">&copy; 2024 Pioneiro Agronegócios.</p>
                     </Col>
                 </Row>
             </Container>

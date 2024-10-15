@@ -22,7 +22,7 @@
 
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem !important;
+    font-size: clamp(4rem, 5vw, 5rem) !important;
     color: #EEEEEE !important;
     text-align: center;
 }
