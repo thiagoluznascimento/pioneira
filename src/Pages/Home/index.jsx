@@ -10,7 +10,7 @@ function Home() {
                 
                 <h2>
                   <img src={logoImage} width="100" height="100" className="d-inline-block align-top" alt='Logo pioneira' />
-                  AgroPioneiro</h2>
+                  Pioneiro</h2>
                 <h3 className="display-5">Agronegócios</h3>
             </div>
         </div>
