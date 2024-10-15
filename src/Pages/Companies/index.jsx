@@ -11,7 +11,7 @@ function Companies() {
         <Container className="p-3">
             <h2 className="titulo-h2">Nossos Parceiros</h2>
             <h3 className="sub-titulo-h3">
-                Estamos comprometidos em proporcionar soluções práticas e seguras para aqueles que atuam na agricultura, pecuária e no universo rural. Descubra as empresas que acreditam na qualidade do nosso trabalho
+                Estamos comprometidos em proporcionar soluções práticas e seguras para aqueles que atuam na agricultura, pecuária e no universo rural. <br /> Descubra as empresas que acreditam na qualidade do nosso trabalho.
             </h3>
         </Container>
         

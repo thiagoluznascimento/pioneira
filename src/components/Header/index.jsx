@@ -11,7 +11,7 @@ function Header() {
             <Container>
                 <Navbar.Brand as={Link} to="/" className="nav-brand">
                 <img src={logoImage} width="30" height="30" className="d-inline-block align-top" alt='Logo pioneira' />
-                Pioneira</Navbar.Brand>
+                Pioneiro</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" >
