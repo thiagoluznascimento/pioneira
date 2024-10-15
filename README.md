@@ -1,7 +1,7 @@
-# Pioneira
+# Pioneiro
 
 ## Descrição
-O **Pioneira Agronegócios** é um projeto de site focado na divulgação e promoção de uma empresa que atua no setor do agronegócio. O objetivo principal é apresentar os produtos, serviços e as inovações da empresa no campo, oferecendo uma plataforma informativa para agricultores, parceiros de negócios e interessados no setor agrícola.
+O **Pioneiro Agronegócios** é um projeto de site focado na divulgação e promoção de uma empresa que atua no setor do agronegócio. O objetivo principal é apresentar os produtos, serviços e as inovações da empresa no campo, oferecendo uma plataforma informativa para agricultores, parceiros de negócios e interessados no setor agrícola.
 
 ## Tecnologias
 * React.js
