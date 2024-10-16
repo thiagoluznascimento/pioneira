@@ -30,5 +30,5 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 5. Crie um pull request.
 
 ## Visualização
-[Acesse o site da Pioneira Agronegócios](https://pioneira-peach.vercel.app/)
+[Acesse o site da Pioneiro Agronegócios](https://pioneira-peach.vercel.app/)
 
